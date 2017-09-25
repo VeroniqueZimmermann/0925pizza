@@ -1,0 +1,42 @@
+/* CSS Document */
+
+header{
+    background-color: #C21A27;
+    padding: 1%;
+}
+
+#kategorien
+{
+    width: 75%;
+    margin-top:auto;
+    float: left;
+
+}
+
+#kategorien td
+{
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover
+{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+#Logo{
+    margin-right: 2%;
+    width: 20%;
+    box-shadow: 5px 5px 5px 5px #eeeeee;
+}
