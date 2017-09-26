@@ -23,9 +23,29 @@
     
     <div id="links"><img src="Wrap_01.jpg" width="100%"><br>
         Auswahllisten
-    <form>
-            Art der Pizza eingeben
-        <input type="text" class="wichtig"></form></div>
+    <form class="pizzadetails">
+        <label>Art der Pizza</label>
+        <input name="art" type="text" placeholder="bitte wählen sie aus" required>
+        <br>
+        <label>Belag</label>
+        <input name="belag" type="text" size=15> <!--wie viele Zeichen möglich-->
+        <br>
+        <label>Anzahl</label>
+        <input type="number" min=1 max=4> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
+        <br>
+        <label>Größe</label>
+        <input name="range1" type="range" min=24 max=40 step=4 oninput="range1value.value = range1.valueAsNumber">
+        <output name="range1value" for="range1">32</output>
+        <br>
+        <label>Farbe Belag</label>
+        <input name="farbe" type="color">
+        <br>
+        <label>Datum</label>
+        <input type="date" name="datum" placeholder="Eingabe wie JJJJ-MM-TT">
+        <br>
+        <label></label>
+        <input type="submit">
+    </form></div>
     <div id="rechts">
         <p>Ihre Bestellung</p>
         <p>User Login</p>

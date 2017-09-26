@@ -75,6 +75,12 @@ form input{
     color:red;
 }
 
-#links form input{
-    color: yellow;
+.pizzadetails input{
+    color: darkred ;
+}
+
+label{
+    border: 1px solid tomato;
+    display: inline-block;
+    width:120px;
 }
