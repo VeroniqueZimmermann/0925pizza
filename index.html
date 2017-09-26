@@ -21,11 +21,25 @@
 
 <content>
     
-    <div id="links"><img src="pizza_gefluegel.jpg" width="95%"><br>
-        Was gewählt wird</div>
+    <div id="links"><img src="Wrap_01.jpg" width="100%"><br>
+        Auswahllisten
+    <form>
+            Art der Pizza eingeben
+        <input type="text" class="wichtig"></form></div>
     <div id="rechts">
         <p>Ihre Bestellung</p>
         <p>User Login</p>
+        <form action="meinDatenSpion.de" method="POST"> <!--an wen wendet es sich und auf welche Art-->
+                                                <!--get würde in der Adresszeile stehen-->
+                                                <!--Post ist nicht unbedingt sicherer-->
+            <table>
+            <tr><td>Email eintragen</td><td><input type="email" name="email"></td></tr>
+            <tr><td>Passwort eintragen</td><td><input type="password" name="password"></td></tr>
+            <tr><td></td><td><input type="submit"></td></tr>
+        </table>
+        <hr>
+
+        </form>
         <p>Lieferzeiten</p>
     </div>
 </content>

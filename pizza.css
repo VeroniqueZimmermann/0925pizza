@@ -70,3 +70,11 @@ footer
     clear: both;
     float: center;
 }
+
+form input{
+    color:red;
+}
+
+#links form input{
+    color: yellow;
+}
