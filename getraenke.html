@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Pizza Servicey</title>
+<title>Lieferservice</title>
 
 <link href="pizza.css" rel="stylesheet">
 </head>
@@ -16,7 +16,8 @@
         <tr><td><a href="">Pizza Aioli</a></td><td><a href="">Desserts</a></td><td><a href="">Nudelgerichte</a></td><td><a href="">gebr. China Nudeln</a></td></tr>
         <tr><td><a href="">Vorspeisen</a></td><td><a href="">Vegetarisch</a></td><td><a href="">Geflügelspezialitäten</a></td><td></td></tr>
         <tr><td><a href="">Salate</a></td><td><a href="">Hamburger</a></td><td><a href="">Gyrosgerichte</a></td><td><a href="index.html">zurück zum Anfang</a></td></tr>
-    </table><img id="Logo" src="pizzamannLogo.png">
+    </table>
+    <img id="Logo" src="pizzamannLogo.PNG">
 </header>
 
 <content>
@@ -30,54 +31,54 @@
         <input type="number" min=1 max=5 name="ColalightMenge"> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
         <label>Größe</label>
         <!-- nur eine Möglichkeit auswählen können -->
-        <input type="radio" name="groesseCL" value=0.33><label>0,33 l</label>
-        <input type="radio" name="groesseCL" value=0.5><label>0,5 l</label>
-        <input type="radio" name="groesseCL" value=1.0><label>1,0 l</label>
+        <input type="radio" name="groesseCL,0.33" value="true"><label>0,33 l</label>
+        <input type="radio" name="groesseCL,0.5" value="true"><label>0,5 l</label>
+        <input type="radio" name="groesseCL,1.0" value="true"><label>1,0 l</label>
         <!--Name gruppiert, value indentifiziert-->
         <label>Cola</label>
         <label>Menge</label>
         <input type="number" min=1 max=5 name="ColaMenge"> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
         <label>Größe</label>
         <!-- nur eine Möglichkeit auswählen können -->
-        <input type="radio" name="groesseC" value=0.33><label>0,33 l</label>
-        <input type="radio" name="groesseC" value=0.5><label>0,5 l</label>
-        <input type="radio" name="groesseC" value=1.0><label>1,0 l</label>
+        <input type="radio" name="groesseC,0.33" value="true"><label>0,33 l</label>
+        <input type="radio" name="groesseC,0.5" value="true"><label>0,5 l</label>
+        <input type="radio" name="groesseC,1.0" value="true"><label>1,0 l</label>
         <!--Name gruppiert, value indentifiziert-->
         <label>Fanta light</label>
         <label>Menge</label>
         <input type="number" min=1 max=5 name="FantaLightMenge"> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
         <label>Größe</label>
         <!-- nur eine Möglichkeit auswählen können -->
-        <input type="radio" name="groesseFL" value=0.33><label>0,33 l</label>
-        <input type="radio" name="groesseFL" value=0.5><label>0,5 l</label>
-        <input type="radio" name="groesseFL" value=1.0><label>1,0 l</label>
+        <input type="radio" name="groesseFL,0.33" value="true"><label>0,33 l</label>
+        <input type="radio" name="groesseFL,0.5" value="true"><label>0,5 l</label>
+        <input type="radio" name="groesseFL,1.0" value="true"><label>1,0 l</label>
         <!--Name gruppiert, value indentifiziert-->
         <label>Sprite light</label>
         <label>Menge</label>
         <input type="number" min=1 max=5 name="SpriteLightMenge"> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
         <label>Größe</label>
         <!-- nur eine Möglichkeit auswählen können -->
-        <input type="radio" name="groesseSL" value=0.33><label>0,33 l</label>
-        <input type="radio" name="groesseSL" value=0.5><label>0,5 l</label>
-        <input type="radio" name="groesseSL" value=1.0><label>1,0 l</label>
+        <input type="radio" name="groesseSL,0.33" value="true"><label>0,33 l</label>
+        <input type="radio" name="groesseSL,0.5" value="true"><label>0,5 l</label>
+        <input type="radio" name="groesseSL,1.0" value="true"><label>1,0 l</label>
         <!--Name gruppiert, value indentifiziert-->
         <label>Sprite</label>
         <label>Menge</label>
         <input type="number" min=1 max=5 name="SpriteMenge"> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
         <label>Größe</label>
         <!-- nur eine Möglichkeit auswählen können -->
-        <input type="radio" name="groesseS" value=0.33><label>0,33 l</label>
-        <input type="radio" name="groesseS" value=0.5><label>0,5 l</label>
-        <input type="radio" name="groesseS" value=1.0><label>1,0 l</label>
+        <input type="radio" name="groesseS,0.33" value="true"><label>0,33 l</label>
+        <input type="radio" name="groesseS,0.5" value="true"><label>0,5 l</label>
+        <input type="radio" name="groesseS,1.0" value="true"><label>1,0 l</label>
         <!--Name gruppiert, value indentifiziert-->
         <hr>
         <label>Bier</label>
         <select name="Bier">
-            <option value="Hel,2.00">Augustiner Hell</option>
-            <option value="WB,2.30">Hopf Weißbier</option>
-            <option value="WBD,2.30">Hopf Weißbier dunkel</option>
-            <option value="Koe,1.50">Kölsch Früh</option>
-            <option value="Koe,1.20">Kölsch Reissdorf</option>
+            <option value="Aug,2.00">Augustiner Hell</option>
+            <option value="HWBh,2.30">Hopf Weißbier</option>
+            <option value="HWBd,2.30">Hopf Weißbier dunkel</option>
+            <option value="KoeFr,1.50">Kölsch Früh</option>
+            <option value="KoeR,1.20">Kölsch Reissdorf</option>
         </select><br>
         <label>Wia fui?</label>
         <input type="number" min=4 max=20 name="menge"> <!--step=0.5 ginge auch, bei Pizza ber sinnlos!-->
